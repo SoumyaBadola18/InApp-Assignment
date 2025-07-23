@@ -1,0 +1,22 @@
+# === FRONTEND (React) ===
+node_modules/
+
+# === BACKEND (Python + Flask) ===
+.venv*/
+venv*/
+__pycache__/
+build/
+*egg-info/
+.python-version
+
+# Ignore local DB
+*.db
+
+# === IMDb datasets (anywhere in repo) ===
+*.tsv.gz
+
+# === OS/editor noise ===
+.DS_Store
+.vscode/
+.idea/
+instance/
